@@ -1,46 +1,5 @@
-const { Client } = require('discord.js');
-const { REST } = require('@discordjs/rest');
-const { Routes } = require('discord-api-types/v9');
-const axios = require('axios');
-console.log('đang chạy code');
 
-const token = 'MTIyNDczMDQ0NjQyMDc3NDkzMg.GsFQTv.C-IrGztjlEX7TCBkUcDsgvTsSxlSH0mKOvObsg';
-const clientId = '1224730446420774932';
-const apikey  = 'kazapikeyreal';
-LinkDiscord = 'https://discord.gg/UQjPG97yYV';
-By = 'Made by kaz_2205.';
-console.log('MTIyNDczMDQ0NjQyMDc3NDkzMg.GsFQTv.C-IrGztjlEX7TCBkUcDsgvTsSxlSH0mKOvObsg');
-console.log('1224730446420774932');
-avtOwner = 'https://cdn.discordapp.com/attachments/1243504829280817202/1243518737852797019/grayx1.png?ex=6651c492&is=66507312&hm=16b38009a806cd9329406f3a518ba9e653696bd28d855d9040909c276f1766ae&'
-const supportedCommand = {
-    name: 'supported',
-    description: 'Get information about supported features.',
-    options: [] 
-};
-
-const commands = [
-    {
-        name: 'delta',
-        description: 'Gets Delta Key',
-        options: [
-            {
-                name: 'link',
-                type: 3,
-                description: 'The Delta link',
-                required: true,
-            },
-        ],
-    },
-    {
-        name: 'linkvertise',
-        description: 'Gets linkvertise',
-        options: [
-            {
-                name: 'link',
-                type: 3,
-                description: 'The linkvertise',
-                required: true,
-            },
+        
         ],
     },
     {
